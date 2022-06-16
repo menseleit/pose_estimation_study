@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[15]:
-
+# All based on in-bed pose estimation data. https://github.com/ostadabbas/Seeing-Under-the-Cover
 
 import cv2 as cv
 import matplotlib.pyplot as plt
@@ -39,7 +39,7 @@ POSE_PAIRS = [ ["Neck", "RShoulder"], ["Neck", "LShoulder"], ["RShoulder", "RElb
 
 
 base_path = "/Users/maddieenseleit/Research/"
-input_path = base_path + "Input/Train/uncover/"
+input_path = base_path + "Input/Train/uncover/" #CHOOSE UNCOVER, COVER1, COVER2
 array = os.listdir(input_path)
 
 
